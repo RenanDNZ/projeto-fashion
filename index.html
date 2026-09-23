@@ -10,7 +10,41 @@
 </head>
 
 <body>
-    <section id="app" class="flex flex-col lg:flex-row justify-center items-center">
+    
+    <header class="flex lg:flex-row lg:justify-around flex-col items-center gap-3 mx-6 my-6">
+        <div class="flex gap-3 ">
+            <img src="assets/logo.png" alt="logo">
+            <img src="assets/fashion.png" alt="fashion">
+        </div>
+        <nav class="flex gap-6 items-center">
+            <a href="#">CATALOGUE</a>
+            <a href="#">FASHION</a>
+            <a href="#">FAVOURITE</a>
+            <a href="#">LIFESTYLE</a>
+            <a class="leading-10 bg-black text-white rounded px-[22px] duration-200 hover:px-[25px] hover:shadow-black hover:shadow-lg hover:bg-amber-500" href="#">SING UP</a>
+        </nav>
+    </header>
+    <main>
+        <section class="flex justify-start bg-gray-100 rounded-3xl h-852px max-w-full mx-8 lg:mx-60 mt-5 py-6 relative z-1">
+            <div class="flex flex-col gap-2 lg:gap-6 relative z-1 pl-6 lg:pl-20">
+
+                <span class="bg-white h-10 lg:h-18 w-33 lg:w-65 absolute -z-1 -rotate-2 pl-6 -ml-1"></span>
+
+                <span class="bg-[#EBD96B] h-10 lg:h-18 w-35 lg:w-65 absolute -z-1 -rotate-2 mt-20 lg:mt-38 -ml-1"></span>
+
+                <h1 class="text-3xl lg:text-6xl font-black w-50 leading-10 lg:leading-tight">LET’S <br> EXPLORE UNIQUE CLOTHES.</h1>
+
+                <p class="w-60 lg:w-full lg:text-base">Live for Influential and Innovative fashion!</p>
+
+                <div class="flex gap-3">
+                    <img class="w-20 lg:w-30 h-auto object-contain" src="assets/detalhe_header.png" alt="detalhe_header">
+
+                    <a class="leading-8 lg:leading-10 text-[15px] lg:text-[20px] rounded bg-black text-white px-[5px] lg:px-[30px duration-200 hover:px-[15px] hover:shadow-black hover:shadow-lg hover:bg-amber-500" href="#">Shop Now</a>
+                </div>
+            </div>
+            <img class="absolute -z-1 -right-15 top-[44px] lg:top-[15px] w-[526px] lg:w-[900px]" src="assets/bg-meninaEstrela.png" alt="bg-meninaEstrela">
+        </section>
+        <section id="app" class="flex flex-col lg:flex-row justify-center items-center">
         <div class="text-center lg:text-left">
             <h1 class="text-2xl xl:text-[48px] font-black mb-5 xl:mb-10 mt-5">
                 DOWNLOAD APP & <br />
@@ -29,6 +63,7 @@
             <img src="./img/Group 84.png" alt="">
         </div>
     </section>
+    </main>
 </body>
 
 </html>
