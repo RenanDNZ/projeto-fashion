@@ -3,8 +3,11 @@
 
 *{
     font-family: "Poppins", sans-serif;
+<<<<<<< HEAD
+=======
 }
 
 .header{
     @apply ;
+>>>>>>> cfc784aaec7d3b9b3a43d7e87e13535732f5716a
 }
